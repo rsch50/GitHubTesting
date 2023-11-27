@@ -109,12 +109,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 10.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 80.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -125,4 +125,9 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 800
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#0000ff"
 - File: Screens/Screens.yaml
